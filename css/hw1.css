@@ -1,6 +1,7 @@
 header {
 	background: #A9A9A9 url("../images/flywheel.jpg")  no-repeat;
 	padding: 20px;
+	/*margin-bottom: 0;*/
 }
 
 h1, h2 {
@@ -42,8 +43,26 @@ nav a{
 
 }
 
-/*Hide Images*/
-.left {
-	display: none;
+aside img {
+	display: block;
+	width: 80%;
+	border: 1px solid #17202a;
+	margin: 20px auto;
 }
+
+
+.left {
+	/*margin-top: 0;*/
+	float: left;
+	width: 20%;
+	height: 500px;
+	background:  #477009;
+}
+
+.right{
+	background: #FFFFFF;
+	/*padding: 10px;*/
+}
+
+
 
