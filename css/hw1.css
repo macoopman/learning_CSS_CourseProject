@@ -1,5 +1,6 @@
 header {
-	background: #A9A9A9;
+	background: #A9A9A9 url("../images/flywheel.jpg")  no-repeat;
+	padding: 20px;
 }
 
 h1, h2 {
@@ -9,6 +10,7 @@ h1, h2 {
 h1 {
 	text-align: center;
 	color: #FFFFFF;
+	font-size: 1.5em;
 }
 
 h2 {
@@ -19,19 +21,29 @@ section {
 	background: #585858;
 }
 
+
+
 a {
-	background: #909090;
 	color: #202020;
 }	
+
+nav a{
+	display: inline-block;
+	background-color: rgba(253, 254, 254,.2);
+	width: 22%;
+	padding: 12px;
+	text-align: center;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.active{
+	background: white;
+
+}
 
 /*Hide Images*/
 .left {
 	display: none;
 }
 
-
-/*this is just practicing with borders*/
-
-.right {
-	border: double 5px black;
-}
