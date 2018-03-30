@@ -1,8 +1,13 @@
 
 
+body{
+	margin:0;
+
+}
 header {
 	background: #A9A9A9 url("../images/flywheel.jpg")  no-repeat;
 	padding: 20px;
+	max-width: 920px;
 }
 
 h1, h2 {
