@@ -1,14 +1,14 @@
 
 
 body{
-	margin:0;
+	margin:5px;
+	padding: 5px;
 	font-size: 1.1em;
-
+	max-width: 960px;
 }
 header {
 	background: #A9A9A9 url("../images/flywheel.jpg")  no-repeat;
 	padding: 20px;
-	max-width: 920px;
 }
 
 h1, h2 {
@@ -33,14 +33,19 @@ a {
 	color: #202020;
 }	
 
+nav {
+	padding-left: 40px;
+}
+
 nav a{
 	display: inline-block;
 	background-color: rgba(253, 254, 254,.2);
-	width: 22%;
+	width: 20%;
 	padding: 12px;
 	text-align: center;
 	border-radius: 5px;
 	text-decoration: none;
+	margin:0 5px;
 }
 
 .active{
@@ -63,7 +68,6 @@ aside img {
 	height: 500px;
 	background:  #477009;
 	padding: 5px;
-
 }
 
 .right{
