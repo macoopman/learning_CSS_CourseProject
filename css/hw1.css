@@ -2,6 +2,7 @@
 
 body{
 	margin:0;
+	font-size: 1.1em;
 
 }
 header {
@@ -67,7 +68,7 @@ aside img {
 
 .right{
 	display: inline-block;
-	width: 50%;
+	width: 70%;
 	background: #FFFFFF;
 	padding-left: 20px;
 	float: left;
