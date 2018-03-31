@@ -30,8 +30,12 @@ section {
 }
 
 a {
-	color: #202020;
+	color: #479dc0;
 }	
+
+a:visited{
+	color: #452bda;
+}
 
 nav {
 	padding-left: 40px;
@@ -46,6 +50,11 @@ nav a{
 	border-radius: 5px;
 	text-decoration: none;
 	margin:0 5px;
+	color: #02070b;
+}
+
+nav a:visited{
+	color: #02070b;
 }
 
 .active{
@@ -65,7 +74,7 @@ aside img {
 	display: inline-block;
 	float: left;
 	width: 20%;
-	height: 500px;
+	height: 100vh;
 	background:  #477009;
 	padding: 5px;
 }
@@ -77,6 +86,7 @@ aside img {
 	padding-left: 20px;
 	float: left;
 }
+
 
 
 
