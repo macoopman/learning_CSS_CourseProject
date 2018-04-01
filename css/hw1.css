@@ -87,6 +87,64 @@ aside img {
 	float: left;
 }
 
+/*Table Global
+-------------------------------*/
+table {
+	font-size: 80%;
+	width: 90%;
+	margin: 10px auto;
+	line-height: 5px;
+}
+
+tr {
+
+	height: 40px;
+}
+
+
+/*table heading
+--------------------------------*/
+tr th{
+	background: rgba(146,161,92,1);
+	-webkit-column-count: linear-gradient(135deg, #DFEC51 0%,#73AA0A 100%);
+  	-moz-column-count: linear-gradient(135deg, #DFEC51 0%,#73AA0A 100%);
+  	-o-column-count: linear-gradient(135deg, #DFEC51 0%,#73AA0A 100%);
+	background: linear-gradient(135deg, #DFEC51 0%,#73AA0A 100%);
+	color: #ffffff;
+	border-bottom: 3px solid #b0e06b;
+	border-radius: 3px 3px 0 0;
+	text-align: center;
+	text-shadow: 5px 5px 10px #000000;
+}
+
+tr > th:first-child {
+	text-align: left;
+	padding-left: 10px;
+}
+
+/*table body
+-------------------------------*/
+tr td {
+	text-align: center;
+	background: rgba(228,245,215,.6);
+	color: rgba(0,0,0,.6);
+	border-radius: 2px;
+}
+
+
+tr > td:first-child {
+	text-align: left;
+	padding-left: 10px;
+}
+
+tr:hover td{
+	background: rgba(228,245,215,1);
+	color: rgba(0,0,0,1);
+	text-shadow: 5px 5px 10px #000000;
+}
+
+
+
 
 
 
